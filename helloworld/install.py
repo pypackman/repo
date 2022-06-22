@@ -1,7 +1,7 @@
 import os, stat, wget
 
 def install():
-    wget.download('https://raw.githubusercontent.com/repo/helloworld/dist/helloworld', '/tmp/')
+    wget.download('https://raw.githubusercontent.com/pypackman/repo/main/helloworld/dist/helloworld', '/tmp/')
     if not os.path.isdir('~/.bin/pypack'):
         print("PyPack has not been installed Correctly! please install it with ensure_pypack.")
         pass
